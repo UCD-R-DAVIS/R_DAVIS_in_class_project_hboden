@@ -19,5 +19,5 @@ times3 <- prob1*3
 plus10 <- times3+10
 
 #Select every other number in plus10
-plus10 <- plus10[c(TRUE, FALSE)]
-plus10
+final <- plus10[c(TRUE, FALSE)]
+final
