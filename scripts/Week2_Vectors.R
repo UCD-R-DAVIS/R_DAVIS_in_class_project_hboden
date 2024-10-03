@@ -40,3 +40,5 @@ weight_g <- weight_g[weight_g>50]
 #symbols
 #%in% (within)
 animals %in% c("rat","cat","dog","duck","goat")
+# == pairwise matching -- ORDER MATTERS
+# %in% comparing buckets -- ORDER DOESN'T MATTER
