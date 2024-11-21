@@ -146,6 +146,7 @@ glimpse(mloa2)
 mloa2$datetime <- paste(mloa2$year, "-", mloa2$month,
                         "-", mloa2$day, ", ", mloa2$hour24, ":",
                         mloa2$min, sep = "")
+mloa2$datatime <- paste(paste(mloa2$year, mloa2$month, mloa2$day, sep = '-'), paste(mloa2$hour24, mloa2$min, sep = ':'))
 
 glimpse(mloa2)
 #since we used "paste," our new column is a character string type
