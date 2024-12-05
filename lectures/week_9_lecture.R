@@ -99,6 +99,8 @@ library(tidyverse)
 # two arguments: the data & the function
 # think about output, but instead of creating a blank output, you can just use the specific function
 
+# THE TYPE OF MAP FUNCTION YOU USE DEPENDS ON WHAT YOU WANT AS YOUR OUTPUT, NOT WHAT YOUR INPUT IS
+
 # basic function
 map(iris, mean) # warning of NA for species
 # default is that the output is a list
